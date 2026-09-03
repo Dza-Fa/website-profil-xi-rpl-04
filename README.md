@@ -1,7 +1,49 @@
+# Website Profil XI RPL
 
-# website-profil-xi-rpl-04
+Website profil kelas XI Rekayasa Perangkat Lunak SMKN 1 Garut. Proyek ini dibuat sebagai media informasi kelas sekaligus latihan kolaborasi menggunakan Git dan GitHub.
 
-REFLEKSI INDIVIDU
+## Anggota Tim
+
+1. Dza Fa - Project Manager
+2. Anggun Agustina - Developer Profil
+3. Dinta Rina Widia - Developer Anggota
+4. Syauqi Al-Baihaqi - Developer Kontak
+
+## Refleksi
+
+## Projek manager - Dzakiir
+
+### 1. Apa perbedaan bekerja sendiri dengan menggunakan Git dan GitHub?
+
+Git dan GitHub memungkinkan tim bekerja secara terstruktur dengan branch, riwayat commit, Pull Request, dan Code Review. Setiap perubahan dapat dilacak serta digabungkan tanpa harus saling menimpa file secara manual.
+
+### 2. Apa manfaat branch?
+
+Branch memisahkan pengerjaan fitur dari branch `main`. Dengan begitu, fitur baru atau eksperimen dapat dikembangkan tanpa mengganggu versi utama yang tetap stabil.
+
+### 3. Mengapa Pull Request diperlukan?
+
+Pull Request menjadi ruang untuk mengajukan perubahan, mendiskusikannya, dan memastikan kode sudah sesuai sebelum digabungkan ke branch `main`.
+
+### 4. Apa manfaat Code Review?
+
+Code Review membantu menemukan bug, typo, masalah struktur HTML, dan ketidakkonsistenan tampilan sebelum perubahan masuk ke versi utama. Proses ini juga membuat kualitas kode lebih terjaga.
+
+### 5. Error apa yang paling sulit diselesaikan?
+
+Merge conflict dan error `git push rejected` termasuk masalah yang menantang karena membutuhkan pemeriksaan riwayat perubahan serta koordinasi dengan anggota tim lain.
+
+### 6. Bagaimana solusi ditemukan?
+
+Solusi dicari dengan membaca pesan error di terminal, memeriksa status dan riwayat Git, berdiskusi dengan anggota terkait, lalu menguji kembali website setelah konflik atau perubahan diselesaikan.
+
+### 7. Apa kontribusi terbesar kalian dalam kelompok?
+
+Sebagai Project Manager, kontribusi terbesar saya adalah memrakarsai dan mengkonfigurasi repository GitHub, membagi peranan dan branch kerja tim, membuatkan landasan design system menggunakan Tailwind CSS, mengevaluasi seluruh Pull Request lewat Code Review, serta memandu tim hingga seluruh fitur terintegrasi dengan sukses tanpa merusak branch main.
+
+### 8. Jika menjadi programmer profesional, kebiasaan apa dari kegiatan ini yang akan kalian pertahankan?
+
+Saya akan mempertahankan kebiasaan tidak pernah melakukan commit/push langsung ke branch main, selalu menggunakan branch fitur tersendiri, membuat pesan commit yang deskriptif dan bermakna, serta disiplin melakukan Code Review dan komunikasi terbuka dengan anggota tim sebelum menggabungkan kode.
 
 Developer profile - Anggun
 
