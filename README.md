@@ -1,3 +1,4 @@
+
 # # website-profil-xi-rpl-04
 
 ## REFLEKSI INDIVIDU
@@ -34,18 +35,3 @@ Kontribusi terbesar saya adalah membuat dan menyelesaikan halaman `anggota.html`
 
 Saya akan mempertahankan kebiasaan menggunakan branch, membuat commit dengan pesan yang jelas, mengecek pekerjaan sebelum melakukan push, dan berkomunikasi dengan anggota tim.
 
----
-
-## REFLEKSI AKHIR
-
-**Sebelum belajar GitHub, saya berpikir bahwa...**  
-GitHub hanya digunakan untuk menyimpan kode atau project secara online.
-
-**Setelah melakukan kolaborasi dengan GitHub, saya memahami bahwa...**  
-GitHub dapat digunakan untuk bekerja sama dalam tim, membagi pekerjaan melalui branch, melakukan Pull Request, Code Review, dan menggabungkan pekerjaan ke branch utama.
-
-**Kesalahan/error yang saya alami mengajarkan saya bahwa...**  
-Error bukan berarti pekerjaan gagal, tetapi dapat membantu kita mengetahui bagian yang salah dan belajar mencari solusi dengan lebih teliti.
-
-**Jika saya bekerja sebagai programmer dalam sebuah tim, saya akan...**  
-Membagi tugas dengan jelas, menggunakan branch masing-masing, berkomunikasi dengan anggota tim, dan melakukan Code Review
