@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>XI RPL - SMKN 1 Garut</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap");
+      body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-[#0b0f17] text-slate-100 min-h-screen flex flex-col justify-between selection:bg-indigo-500 selection:text-white">
+    <!-- Header / Navigation -->
+    <header class="sticky top-0 z-50 bg-[#0b0f17]/80 backdrop-blur-md border-b border-slate-800/80">
+      <div class="max-w-6xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between gap-6">
+        <a href="index.html" class="flex items-center gap-3 group">
+          <div class="w-10 h-10 rounded-xl bg-indigo-600 flex items-center justify-center font-bold text-white shadow-lg shadow-indigo-500/20 group-hover:scale-105 transition-transform">XI</div>
+          <div class="flex flex-col">
+            <span class="font-bold text-slate-100 tracking-wide text-lg leading-tight">XI RPL</span>
+            <span class="text-xs text-indigo-400 font-bold uppercase tracking-wider">SMKN 1 Garut</span>
+          </div>
+        </a>
+
+        <!-- Desktop Nav -->
+        <nav class="hidden md:flex items-center gap-1 bg-slate-900/60 p-1.5 rounded-full border border-slate-800" aria-label="Navigasi utama">
+          <a href="index.html" class="px-5 py-2 rounded-full text-sm font-semibold bg-indigo-600 text-white shadow-md shadow-indigo-600/30 transition">Beranda</a>
+          <a href="profil.html" class="px-5 py-2 rounded-full text-sm font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 transition">Profil</a>
+          <a href="anggota.html" class="px-5 py-2 rounded-full text-sm font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 transition">Anggota</a>
+          <a href="kontak.html" class="px-5 py-2 rounded-full text-sm font-medium text-slate-400 hover:text-slate-200 hover:bg-slate-800/50 transition">Kontak</a>
+        </nav>
+        <button id="nav-toggle" type="button" class="md:hidden rounded-lg border border-slate-800 bg-slate-900/70 p-2 text-slate-300" aria-label="Buka menu navigasi" aria-expanded="false">☰</button>
+      </div>
+      <nav id="mobile-menu" class="hidden md:hidden max-w-6xl mx-auto px-4 pb-4 sm:px-6" aria-label="Navigasi mobile">
+        <div class="grid gap-1 rounded-xl border border-slate-800 bg-slate-900/90 p-2">
+          <a href="index.html" class="rounded-lg bg-indigo-600 px-4 py-3 text-sm font-semibold text-white">Beranda</a>
+          <a href="profil.html" class="rounded-lg px-4 py-3 text-sm font-medium text-slate-400 hover:bg-slate-800 hover:text-white">Profil</a>
+          <a href="anggota.html" class="rounded-lg px-4 py-3 text-sm font-medium text-slate-400 hover:bg-slate-800 hover:text-white">Anggota</a>
+          <a href="kontak.html" class="rounded-lg px-4 py-3 text-sm font-medium text-slate-400 hover:bg-slate-800 hover:text-white">Kontak</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <main class="max-w-6xl mx-auto px-6 py-16 md:py-24 flex-1 flex flex-col justify-center">
+      <div class="text-center max-w-3xl mx-auto space-y-6">
+        <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 text-xs font-semibold tracking-wide uppercase">
+          <span class="w-2 h-2 rounded-full bg-indigo-400 animate-pulse"></span>
+          Portal Resmi Kelas XI RPL
+        </div>
+
+        <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight text-white leading-tight">
+          Membangun Masa Depan Melalui <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-blue-400 to-cyan-400">Baris Kode</span>
+        </h1>
+
+        <p class="text-base md:text-lg text-slate-400 leading-relaxed font-normal">
+          Selamat datang di pusat informasi dan dokumentasi kolaboratif siswa XI Rekayasa Perangkat Lunak SMKN 1 Garut. Tempat kami mengasah keahlian pemrograman, logika, dan kerja tim.
+        </p>
+
+        <div class="pt-4 flex flex-col sm:flex-row items-center justify-center gap-4">
+          <a href="profil.html" class="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm shadow-lg shadow-indigo-600/25 transition-all hover:-translate-y-0.5">
+            Jelajahi Profil Kelas
+          </a>
+          <a href="anggota.html" class="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-slate-800/80 hover:bg-slate-800 text-slate-200 border border-slate-700/80 font-semibold text-sm transition-all hover:-translate-y-0.5"> Lihat Tim Kami </a>
+        </div>
+      </div>
+
+      <!-- Feature Cards -->
+      <div class="grid md:grid-cols-3 gap-6 mt-20">
+        <div class="bg-slate-900/50 p-6 rounded-2xl border border-slate-800/80 hover:border-indigo-500/30 transition group">
+          <div class="w-12 h-12 rounded-xl bg-indigo-500/10 border border-indigo-500/20 text-indigo-400 flex items-center justify-center font-bold text-lg mb-4 group-hover:scale-110 transition-transform">01</div>
+          <h3 class="text-lg font-bold text-slate-100 mb-2">Profil & Visi</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Mengenal lebih dekat identitas kelas, konsentrasi keahlian PPLG, serta visi pengembangan siswa.</p>
+        </div>
+
+        <div class="bg-slate-900/50 p-6 rounded-2xl border border-slate-800/80 hover:border-indigo-500/30 transition group">
+          <div class="w-12 h-12 rounded-xl bg-blue-500/10 border border-blue-500/20 text-blue-400 flex items-center justify-center font-bold text-lg mb-4 group-hover:scale-110 transition-transform">02</div>
+          <h3 class="text-lg font-bold text-slate-100 mb-2">Struktur Tim</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Daftar pengembang dan peran spesifik tiap anggota dalam pengerjaan proyek perangkat lunak.</p>
+        </div>
+
+        <div class="bg-slate-900/50 p-6 rounded-2xl border border-slate-800/80 hover:border-indigo-500/30 transition group">
+          <div class="w-12 h-12 rounded-xl bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 flex items-center justify-center font-bold text-lg mb-4 group-hover:scale-110 transition-transform">03</div>
+          <h3 class="text-lg font-bold text-slate-100 mb-2">Pusat Kontak</h3>
+          <p class="text-sm text-slate-400 leading-relaxed">Akses saluran informasi resmi, surel kelas, alamat sekolah, dan media sosial.</p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="border-t border-slate-800/80 py-8 bg-[#070a0f]">
+      <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
+        <p>&copy; 2026 XI RPL SMKN 1 Garut. Dibuat untuk LKPD 4 Git & GitHub.</p>
+        <div class="flex gap-6">
+          <a href="profil.html" class="hover:text-slate-300 transition">Profil</a>
+          <a href="anggota.html" class="hover:text-slate-300 transition">Anggota</a>
+          <a href="kontak.html" class="hover:text-slate-300 transition">Kontak</a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const navToggle = document.getElementById("nav-toggle");
+      const mobileMenu = document.getElementById("mobile-menu");
+      navToggle?.addEventListener("click", () => {
+        const isOpen = !mobileMenu.classList.toggle("hidden");
+        navToggle.setAttribute("aria-expanded", String(isOpen));
+      });
+    </script>
+  </body>
+</html>
